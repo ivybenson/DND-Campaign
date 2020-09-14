@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(190, 223, 184);
+}
+
+header {
+  color: white;
+
+  background-color: rgb(27, 64, 121);
+  text-align: center;
+}
+nav {
+  background-color: rgb(74, 124, 138);
+  color: white;
+}
+
+header:hover {
+  cursor: pointer;
+}
+
+nav {
+  text-align: right;
+}
+
+div {
+  background-color: rgb(127, 156, 150);
+  float: center;
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
