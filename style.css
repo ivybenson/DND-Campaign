@@ -4,6 +4,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: "futura-pt", sans-serif;
+  display: flex;
 }
 
 header {
