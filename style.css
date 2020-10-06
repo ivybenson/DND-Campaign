@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+}
+
 body {
   background-color: rgb(222, 234, 220);
   margin: 0;
@@ -5,6 +9,7 @@ body {
   text-align: center;
   font-family: "futura-pt", sans-serif;
   display: flex;
+  width: 100%;
 }
 
 header {
@@ -65,4 +70,28 @@ p {
 ul {
   padding-left: 80px;
   padding-right: 80px;
+}
+
+img {
+  max-width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(74, 124, 138);
+  padding-top: 10px;
+  margin-top: 5px;
+}
+textarea {
+  height: 120px;
+}
+
+label {
+  color: white;
+}
+
+form input,
+form textarea {
+  width: 100%;
 }
